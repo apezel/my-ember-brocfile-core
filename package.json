@@ -19,6 +19,7 @@
     "broccoli-merge-trees": "^0.2.3",
     "broccoli-uglify-js": "^0.1.3",
     "ember-cli-htmlbars": "^1.0.0",
-	"ember-template-compiler": "1.8.0"
+	"ember-template-compiler": "1.8.0",
+	"my-ember-pod-resolver": "https://github.com/apezel/my-ember-pod-resolver.git"
   }
 }

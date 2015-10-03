@@ -113,7 +113,7 @@ module.exports.build = function(app, fn) {
     var ember = env === "production" ? "ember.min.js":"ember.js";
 
     var imports = [
-        'node_modules/broccoli-babel-transpiler/node_modules/babel-core/browser-polyfill.min.js',
+        'node_modules/my-ember-brocfile-core/node_modules/broccoli-babel-transpiler/node_modules/babel-core/browser-polyfill.min.js',
         'bower_components/jquery/dist/jquery.js',
         'bower_components/ember/ember-template-compiler.js',
         'bower_components/ember/'+ember,
