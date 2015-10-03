@@ -7,7 +7,7 @@
   },
   "author": "Arnaud PEZEL <arnaud@apyx.fr> (http://www.apyx.fr)",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "broccoli-babel-transpiler": "^5.4.5",
     "broccoli-bower": "^0.2.1",
     "broccoli-concat": "0.0.13",
@@ -19,6 +19,5 @@
     "broccoli-merge-trees": "^0.2.3",
     "broccoli-uglify-js": "^0.1.3",
     "ember-cli-htmlbars": "^1.0.0"
-  },
-  "dependencies": {}
+  }
 }
