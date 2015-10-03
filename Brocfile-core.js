@@ -117,10 +117,10 @@ module.exports.build = function(app, fn) {
         'bower_components/jquery/dist/jquery.js',
         'bower_components/ember/ember-template-compiler.js',
         'bower_components/ember/'+ember,
-        'vendor/loader.js',
-        'vendor/defines.js',
+        'node_modules/my-ember-brocfile-core/lib/loader.js',
+        'node_modules/my-ember-brocfile-core/lib/defines.js',
         'bower_components/ember-load-initializers/ember-load-initializers.js',
-        'vendor/x-resolver.js'
+		'node_modules/my-ember-brocfile-core/node_modules/my-ember-pod-resolver/index.js'
     ];
     
     if (app.imports) {
