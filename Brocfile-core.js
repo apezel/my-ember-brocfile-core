@@ -13,7 +13,7 @@ var concatenate = require('broccoli-concat'),
 
 module.exports.build = function(app, fn) {
 	
-	var config = require('/'+app.path+'/config/environment')(env);
+	var config = app.configModule(env);
 	var appJs, appCss;
 
 	// =========================
