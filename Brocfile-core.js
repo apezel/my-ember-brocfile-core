@@ -35,7 +35,7 @@ module.exports.build = function(app, fn) {
 	templateTree = new HtmlbarsCompiler(templateTree, {
         isHTMLBars: true,
         EmberENV: config.EmberENV,
-        templateCompiler: require('./bower_components/ember/ember-template-compiler')
+        templateCompiler: require('../../bower_components/ember/ember-template-compiler')
 	});
 
 	var sourceTrees = [templateTree, appTree];
